@@ -55,7 +55,7 @@ public struct JogadorFutebol
     public void imprimir()
     {
         Console.WriteLine(
-            "O nome do jogador é: "+this.nomeCompleto+
+            "O nome do jogador é: "+Convert.ToString(this.nomeCompleto)+
             "\nO nome na camisa é: "+this.nomeCamisa+
             "\nEle nasceu em: "+this.dataNascimento+
             "\nEle pesa: "+this.peso+
