@@ -1,0 +1,5 @@
+C:\Users\aluno\Desktop\Atividade-TAD\obj\Debug\net6.0\Atividade-TAD.csproj.AssemblyReference.cache
+C:\Users\aluno\Desktop\Atividade-TAD\obj\Debug\net6.0\Atividade-TAD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Desktop\Atividade-TAD\obj\Debug\net6.0\Atividade-TAD.AssemblyInfoInputs.cache
+C:\Users\aluno\Desktop\Atividade-TAD\obj\Debug\net6.0\Atividade-TAD.AssemblyInfo.cs
+C:\Users\aluno\Desktop\Atividade-TAD\obj\Debug\net6.0\Atividade-TAD.csproj.CoreCompileInputs.cache
