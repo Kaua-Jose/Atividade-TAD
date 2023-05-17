@@ -52,24 +52,25 @@ public struct JogadorFutebol
         this.cartoesVermelhos = this.cartoesVermelhos + numeroDeCartoes;
         Console.WriteLine("O número de cartões vermelhos foi atualizado.");
     }
+    public void verificarVinculoClube()
+    {
+        Console.WriteLine(string.IsNullOrEmpty(this.clubeAtual) ? "Ele não tem vinculo com nenhum clube" : $"Ele tem um vinculo com o clube: {this.clubeAtual}");
+    }
     public void imprimir()
     {
-        Console.WriteLine(
-            "O nome do jogador é: "+Convert.ToString(this.nomeCompleto)+
-            "\nO nome na camisa é: "+this.nomeCamisa+
-            "\nEle nasceu em: "+this.dataNascimento+
-            "\nEle pesa: "+this.peso+
-            "\nEle mede: "+this.altura+
-            this.ambidestro ? "\nEle é ambidestro" : "\nEle não é ambidestro"+
-            " e seu pé preferido é: "+this.pePreferido+
-            string.IsNullOrEmpty(this.clubeAtual) ? "\nEle não tem vinculo com nenhum clube" : $"\nEle tem um vinculo com o clube: {this.clubeAtual}"+
-            "\nA posição preferida dele é: "+this.posicaoPreferida+
-            "\nEle fez "+this.numeroDeGols+" gols na carreira"+
-            "\nEle deu "+this.numeroDeAssistencias+" assistencias na carreira"+
-            string.IsNullOrEmpty(this.titulos) ? "\nEle não tem conquistou nenhum titulo na carreira" : $"\nEle conquistou os seguintes titulos na carreira: {this.titulos}"+
-            string.IsNullOrEmpty(this.cartoesAmarelos) ? "\nEle não tomou nenhum cartão amarelo na carreira" : $"\nEle tomou {this.cartoesAmarelos} cartoes amarelos na carreira"+
-            string.IsNullOrEmpty(this.cartoesAmarelos) ? "\nEle não tomou nenhum cartão vermelho na carreira" : $"\nEle tomou {this.cartoesVermelhos} cartoes vermelhos na carreira"+
-            this.jogouNoPeixao ? "\nE ele não jogou no Peixão" : "\nE ele jogou no Peixão"  
-        );
+        Console.WriteLine("O nome do jogador é "+this.nomeCompleto);
+        Console.WriteLine("O nome na camisa é "+this.nomeCamisa);
+        Console.WriteLine("Ele nasceu em "+this.dataNascimento);
+        Console.WriteLine("Ele pesa "+this.peso+" kg");
+        Console.WriteLine("Ele mede: "+this.altura+" mts");
+        Console.WriteLine(this.ambidestro ? "Ele é ambidestro" : "Ele não é ambidestro"+" e seu pé preferido é o "+this.pePreferido);
+        verificarVinculoClube();
+        Console.WriteLine("A posição preferida dele é "+this.posicaoPreferida);
+        Console.WriteLine("Ele fez "+this.numeroDeGols+" gols na carreira");
+        Console.WriteLine("Ele deu "+this.numeroDeAssistencias+" assistencias na carreira");
+        Console.WriteLine(string.IsNullOrEmpty(this.titulos) ? "Ele não tem conquistou nenhum titulo na carreira" : $"Ele conquistou os seguintes titulos na carreira: {this.titulos}");
+        Console.WriteLine(this.cartoesAmarelos < 1 ? "Ele não tomou nenhum cartão amarelo na carreira" : $"Ele tomou {this.cartoesAmarelos} cartoes amarelos na carreira");
+        Console.WriteLine(this.cartoesAmarelos < 1 ? "Ele não tomou nenhum cartão vermelho na carreira" : $"Ele tomou {this.cartoesVermelhos} cartoes vermelhos na carreira");
+        Console.WriteLine(this.jogouNoPeixao ? "E ele jogou no Peixão" : "E ele não jogou no Peixão");
     }
 }

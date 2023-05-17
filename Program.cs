@@ -15,7 +15,7 @@ namespace TAD
                 "Direito",
                 293,
                 188,
-                "Puskas, Paulista, Copa do Brasil, Libertadores, Champions League, Mundial, Recopa Sulamericana, La Liga, Ligue 1",
+                "Puskas, Paulista, Copa do Brasil, Libertadores, Champions League, Mundial, Recopa Sulamericana, La Liga, Ligue 1...",
                 68f,
                 1.75f,
                 135,

@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\Desktop\\Atividade-TAD\\Atividade-TAD.csproj": {}
+    "C:\\Users\\Kaua\\Desktop\\Trabalhos\\Atividade-TAD\\Atividade-TAD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\Desktop\\Atividade-TAD\\Atividade-TAD.csproj": {
+    "C:\\Users\\Kaua\\Desktop\\Trabalhos\\Atividade-TAD\\Atividade-TAD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Desktop\\Atividade-TAD\\Atividade-TAD.csproj",
+        "projectUniqueName": "C:\\Users\\Kaua\\Desktop\\Trabalhos\\Atividade-TAD\\Atividade-TAD.csproj",
         "projectName": "Atividade-TAD",
-        "projectPath": "C:\\Users\\aluno\\Desktop\\Atividade-TAD\\Atividade-TAD.csproj",
-        "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Desktop\\Atividade-TAD\\obj\\",
+        "projectPath": "C:\\Users\\Kaua\\Desktop\\Trabalhos\\Atividade-TAD\\Atividade-TAD.csproj",
+        "packagesPath": "C:\\Users\\Kaua\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kaua\\Desktop\\Trabalhos\\Atividade-TAD\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\Kaua\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Kaua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kaua\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
