@@ -38,6 +38,22 @@ namespace TAD
             produto1.imprimir();
 
             Console.WriteLine("\n\n\n\n\n");
+
+            Professor professor1 = new Professor("João Cléber Santos", 1000, 8,
+                "Matemática, Fisíca, Matecática Discreta, Álgebra",
+                "Mestre", "Matemática Aplicada, Álgebra", "joao.santos247@educacao.sp.gov.br", "UNESP"
+            );
+
+            professor1.imprimir();
+            Console.WriteLine("\n\n");
+            professor1.reajusteSalarialEmValor(50f);
+            professor1.imprimir();
+            Console.WriteLine("\n\n");
+            professor1.descontoSalarialPorFaltaEmPorcentagem(50);
+            professor1.imprimir();
+            Console.WriteLine("\n\n");
+            professor1.aumentarCargaHorariaDeTrabalho(2);
+            professor1.imprimir();
         }
     }
 }
