@@ -14,11 +14,30 @@ namespace TAD
 
             jogador1.imprimir();
 
+            Console.WriteLine("\n\n\n\n\n");
+
             EquipeEsports equipe1 = new EquipeEsports("Sem Base", 1, 0, "04/09/2011", "Regional", "SBS", "Brasil", "17/03/2011");
 
             equipe1.registrarCampeonatoVencido(400);
             equipe1.imprimir();
             equipe1.verificarAnoEstreia();
+
+            Console.WriteLine("\n\n\n\n\n");
+
+            Produto produto1 = new Produto("Teclado Mecanico", 124, 210.98f, "12/12/2021",
+                "Teclado Mecanico RGB, com switch otemu blue, confirmação tatil, branco, usb 3.0",
+                400, "Eletronicos", "RedDragon", 23602468
+            );
+
+            produto1.imprimir();
+            produto1.aplicarCupomDescontoPorcentagem(30);
+            Console.WriteLine("\n\n");
+            produto1.imprimir();
+            produto1.aplicarCupomDescontoValor(50);
+            Console.WriteLine("\n\n");
+            produto1.imprimir();
+
+            Console.WriteLine("\n\n\n\n\n");
         }
     }
 }
